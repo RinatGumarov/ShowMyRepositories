@@ -177,6 +177,30 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwk",
+      "sourceMethod": "getJwk()",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwk",
+      "sourceMethod": "getJwk()",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.jwt",
       "sourceMethod": "getJwt()",
       "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
@@ -1049,8 +1073,13 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.authentication-scheme",
-      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+      "name": "github.client.access-token-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.access-token-uri",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -1095,6 +1124,31 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-authentication-scheme",
       "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
     },
     {
@@ -1199,7 +1253,12 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.client-secret",
+      "name": "github.client.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-id",
       "type": "java.lang.String"
     },
     {
@@ -1245,6 +1304,31 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.grant-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.grant-type",
       "type": "java.lang.String"
     },
     {
@@ -1349,7 +1433,12 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.pre-established-redirect-uri",
+      "name": "github.client.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.id",
       "type": "java.lang.String"
     },
     {
@@ -1396,6 +1485,31 @@
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.pre-established-redirect-uri",
       "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.pre-established-redirect-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.pre-established-redirect-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.pre-established-redirect-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.scope",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.scope",
+      "type": "java.util.List<java.lang.String>"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -1499,8 +1613,13 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.use-current-uri",
-      "type": "java.lang.Boolean"
+      "name": "github.client.token-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.token-name",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -1546,6 +1665,31 @@
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.use-current-uri",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.use-current-uri",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.use-current-uri",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.use-current-uri",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.user-authorization-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.user-authorization-uri",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -1646,6 +1790,26 @@
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.filter-order",
       "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.filter-order",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.filter-order",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.id",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
@@ -1764,6 +1928,26 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.prefer-token-info",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.prefer-token-info",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.service-id",
       "type": "java.lang.String"
     },
@@ -1864,7 +2048,12 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "github.resource.token-type",
+      "name": "github.resource.token-info-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-info-uri",
       "type": "java.lang.String"
     },
     {
@@ -1910,6 +2099,31 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.user-info-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.user-info-uri",
       "type": "java.lang.String"
     },
     {

@@ -105,7 +105,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 	@Autowired
 	OAuth2ClientContext oauth2ClientContext;
 
-	@RequestMapping({ "ololo" })
+	@RequestMapping({ "/user", "/me" })
 	public Map<String, Object> user(Principal principal) {
 		Map<String, Object> map = new LinkedHashMap<>();
 		map.put("name", principal.getName());
